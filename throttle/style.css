@@ -1,0 +1,12 @@
+img {
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin: 30px auto;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+img.loaded {
+  opacity: 1;
+}

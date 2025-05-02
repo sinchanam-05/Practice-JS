@@ -1,0 +1,23 @@
+:root {
+  --bg: #fff;
+  --fg: #111;
+}
+body.dark {
+  --bg: #111;
+  --fg: #eee;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  height: 100vh;
+  margin: 0;
+}
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}

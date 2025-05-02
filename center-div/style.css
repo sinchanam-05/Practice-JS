@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #fadffa;
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 2rem 3rem;
+  background: #4f46e5;
+  color: #ffff;
+  border-radius: 8px;
+}
