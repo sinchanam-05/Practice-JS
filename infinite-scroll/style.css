@@ -1,0 +1,14 @@
+#chat {
+  height: 350px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  font-family: sans-serif;
+  padding: 8px;
+}
+.msg {
+  margin: 4px 0;
+}
+.loading {
+  text-align: center;
+  color: #888;
+}

@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.split {
+  display: flex;
+  height: 100%;
+}
+.pane {
+  flex: 1;
+  display: grid;
+  place-content: center;
+  font: 2rem monospace;
+}
+#left {
+  background: #f7f7f7;
+}
+#right {
+  background: #e0e7ff;
+}
+.gutter {
+  width: 6px;
+  cursor: col-resize;
+  background: #999;
+}

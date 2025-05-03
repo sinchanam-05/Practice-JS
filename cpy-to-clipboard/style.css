@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  height: 100vh;
+}
+input {
+  padding: 0.4rem;
+  width: 200px;
+}
+button {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+#msg {
+  color: green;
+  height: 1em;
+}
+
+.helper {
+  /* shown only on legacy fallback */
+  background: #000a;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  animation: fade 2s forwards;
+}
+@keyframes fade {
+  to {
+    opacity: 0;
+  }
+}

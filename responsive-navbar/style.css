@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+nav {
+  background: #4f46e5;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  position: relative;
+}
+#burger {
+  font-size: 1.4rem;
+  border: none;
+  background: transparent;
+  color: inherit;
+  display: none;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  #burger {
+    display: block;
+  }
+  ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #4f46e5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  ul.open {
+    max-height: 200px;
+  }
+}

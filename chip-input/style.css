@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+.chip-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+.chip {
+  background: #e0e7ff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.chip span {
+  cursor: pointer;
+}
+.chip-box input {
+  border: none;
+  flex: 1 0 120px;
+}
+#suggest {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  max-width: 200px;
+}
+#suggest li {
+  padding: 4px 6px;
+  cursor: pointer;
+}
+#suggest li:hover {
+  background: #f1f1f1;
+}
