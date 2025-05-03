@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+input {
+  padding: 0.4rem;
+}
+span.err {
+  color: red;
+  font-size: 0.9rem;
+}
