@@ -1,0 +1,8 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.dark {
+  background: #111;
+  color: #eee;
+}
